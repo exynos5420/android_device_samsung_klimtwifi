@@ -74,7 +74,6 @@ static int initService(vcs_fingerprint_device_t* vdev) {
     uint8_t command[1] = {CALL_INITSERVICE};
 
     ret = sendcommand(vdev, command, 1);
-    vdev->authenticator_id = getfingermask(vdev);
     vdev->init = true;
     return ret;
 }
@@ -190,7 +189,6 @@ static uint64_t fingerprint_get_auth_id(struct fingerprint_device* device) {
     ALOGV("----------------> %s ----------------->", __FUNCTION__);
     uint64_t authenticator_id = 0;
     pthread_mutex_lock(&vdev->lock);
-    vdev->authenticator_id = getfingermask(vdev);
     authenticator_id = vdev->authenticator_id;
     pthread_mutex_unlock(&vdev->lock);
 
@@ -281,8 +279,6 @@ static int fingerprint_enroll(struct fingerprint_device *device,
     if (ret == 1) {
         ret = 0;
     }
-
-    vdev->authenticator_id = getfingermask(vdev);
 
     return ret;
 }
