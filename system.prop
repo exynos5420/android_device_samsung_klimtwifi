@@ -28,11 +28,8 @@ ro.hwui.fbo_cache_size=16
 ro.radio.noril=yes
 
 # Randomly from stock
-ro.ril.gprsclass=10
-ro.ril.hsxpa=1
 ro.sec.fle.encryption=true
 ro.secwvk=220
-ro.securestorage.support=true
 
 # Wifi
 wifi.interface=wlan0
