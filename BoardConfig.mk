@@ -98,7 +98,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Hardware
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
-BOARD_HARDWARE_CLASS += device/samsung/klimtlte/cmhw
+BOARD_HARDWARE_CLASS += device/samsung/klimtwifi/cmhw
 
 # Keymaster
 BOARD_USES_TRUST_KEYMASTER := true
