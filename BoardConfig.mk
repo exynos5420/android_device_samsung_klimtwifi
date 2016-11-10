@@ -151,6 +151,9 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/ramdisk/fstab.universal5420
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_RECOVERY_SWIPE := true
 
+# Releasetools
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := $(LOCAL_PATH)/releasetools/ota_from_target_files
+
 # Samsung Gralloc
 TARGET_SAMSUNG_GRALLOC_EXTERNAL_USECASES := true
 
