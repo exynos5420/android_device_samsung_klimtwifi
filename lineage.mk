@@ -6,8 +6,8 @@ $(call inherit-product, device/samsung/klimtwifi/device.mk)
 
 PRODUCT_BRAND := samsung
 
-# Inherit some common lineage stuff
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_NAME := lineage_klimtwifi
 PRODUCT_DEVICE := klimtwifi
