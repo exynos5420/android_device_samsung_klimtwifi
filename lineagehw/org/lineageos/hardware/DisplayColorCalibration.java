@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.hardware;
+package orgi.lineageos.hardware;
 
 import android.os.IBinder;
 import android.os.Parcel;
