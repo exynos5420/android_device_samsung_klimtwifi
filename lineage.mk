@@ -17,3 +17,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=klimtwifi \
     PRODUCT_DEVICE=klimtwifi \
     TARGET_DEVICE=klimtwifi
+
+BUILD_FINGERPRINT=samsung/klimtwifi/klimtwifi:6.0.1/LRX22G/T700XXU1BOK1:user/release-keys
