@@ -18,3 +18,8 @@ LOCAL_PATH := device/samsung/klimtwifi
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_klimtwifi.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_klimtwifi-user \
+    lineage_klimtwifi-userdebug \
+    lineage_klimtwifi-eng
