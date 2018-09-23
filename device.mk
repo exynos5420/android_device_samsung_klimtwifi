@@ -16,5 +16,9 @@
 
 LOCAL_PATH := device/samsung/klimtwifi
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Inherit from klimt-common
 $(call inherit-product, device/samsung/klimt-common/device-common.mk)
