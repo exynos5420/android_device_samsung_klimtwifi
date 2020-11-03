@@ -55,5 +55,9 @@ BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw
 BOARD_CAMERA_FRONT_ROTATION := 270
 BOARD_CAMERA_BACK_ROTATION := 90
 
+# Shim
+TARGET_LD_SHIM_LIBS += \
+    /system/bin/gpsd|libshim.so
+
 # Inherit from exynos5420-common
 include device/samsung/exynos5420-common/BoardConfigCommon.mk
