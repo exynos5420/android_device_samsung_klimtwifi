@@ -33,7 +33,7 @@ TARGET_KERNEL_CONFIG := lineageos_klimtwifi_defconfig
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Cyanogen Hardware
-BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
+BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/lineagehw
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
