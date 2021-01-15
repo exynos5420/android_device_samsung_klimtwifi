@@ -48,8 +48,8 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 LZMA_RAMDISK_TARGETS := recovery
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
-BOARD_SEPOLICY_DIRS += device/samsung/klimtwifi/sepolicy
+#BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
+#BOARD_SEPOLICY_DIRS += device/samsung/klimtwifi/sepolicy
 
 # Camera: portrait orientation
 BOARD_CAMERA_FRONT_ROTATION := 270
