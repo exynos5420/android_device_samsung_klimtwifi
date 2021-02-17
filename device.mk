@@ -80,6 +80,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.universal5420.rc
 
+# System Properties
+$(call inherit-product, device/samsung/klimtwifi/system_prop.mk)
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/klimtwifi/klimtwifi-vendor.mk)
 
