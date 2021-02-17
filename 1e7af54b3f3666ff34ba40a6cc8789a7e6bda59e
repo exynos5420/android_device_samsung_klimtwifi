@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ac946ab_2b8e078d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000137
+      },
+      "writtenOn": "2021-02-17T11:40:06Z",
+      "side": 1,
+      "message": "Its OK. I test only comments.",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 57
+      },
+      "revId": "1e7af54b3f3666ff34ba40a6cc8789a7e6bda59e",
+      "serverId": "c6d92919-bfe7-411c-9f64-004a8163e0f0",
+      "unresolved": false
+    }
+  ]
+}
