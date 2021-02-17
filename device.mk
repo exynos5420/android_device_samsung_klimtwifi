@@ -44,9 +44,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    fingerprintd \
+    android.hardware.biometrics.fingerprint@2.0-service \
     fingerprint.universal5420 \
     validityService
+
+# HIDL
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/manifest.xml
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
