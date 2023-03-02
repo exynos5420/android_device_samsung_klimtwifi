@@ -35,6 +35,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=klimtwifi \
-    PRIVATE_BUILD_DESC="klimtwifixx-user 6.0.1 MMB29K T700XXU1CRF1 release-keys"
+    PRIVATE_BUILD_DESC="klimtwifixx-user 6.0.1 MMB29K T700XXU1CVG1 release-keys"
 
-BUILD_FINGERPRINT := samsung/klimtwifixx/klimtwifi:6.0.1/MMB29K/T700XXU1CRF1:user/release-keys
+BUILD_FINGERPRINT := samsung/klimtwifixx/klimtwifi:6.0.1/MMB29K/T700XXU1CVG1:user/release-keys
