@@ -27,6 +27,7 @@ set -e
 
 export DEVICE=klimtwifi
 export DEVICE_COMMON=klimt-common
+export DEVICE_UNIVERSAL_COMMON=universal5420-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
